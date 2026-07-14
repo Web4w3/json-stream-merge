@@ -1,0 +1,36 @@
+{
+  "name": "@web4w3/json-stream-merge",
+  "version": "1.0.0",
+  "description": "Memory-bounded N-way streaming JSON merge — merges multiple large JSON files in a single pass without loading them fully into memory",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/*.test.js"
+  },
+  "keywords": [
+    "json",
+    "stream",
+    "merge",
+    "large-files",
+    "memory-bounded",
+    "ndjson"
+  ],
+  "author": "Web4w3 LLC <contact@web4w3.com> (https://web4w3.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Web4w3/json-stream-merge.git"
+  },
+  "homepage": "https://github.com/Web4w3/json-stream-merge#readme",
+  "bugs": {
+    "url": "https://github.com/Web4w3/json-stream-merge/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {}
+}
